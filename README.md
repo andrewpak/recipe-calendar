@@ -1,1 +1,3 @@
 # FatBoyCalendar
+
+![](./SequenceDiagram.jpg)
