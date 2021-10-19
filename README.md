@@ -1,3 +1,3 @@
-# FatBoyCalendar!!!!
+# Recipe-Calendar
 
 ![](./SequenceDiagram.jpg)
