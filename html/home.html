@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            color:red;
+            text-align: center;
+        }
+        body {
+            background-color: black;
+        }
+        h2 {
+            color: royalblue;
+            text-align: center;
+        }
+        legend {
+            color: white;
+            text-align: center;
+        }
+        #ingredientLabel {
+          color:white;
+          text-align: center;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #4CAF50;
+            position: center;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        input[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-position: center;
+    
+        }
+    </style>
+    <title>Meal Calendar</title>
+</head>
+<body>
+    <h1>MEAL CALENDAR</h1>
+    <h2>INPUT AN INGREDIENT AND GET A SURPRISE MEAL IDEA EVENT IN YOUR GOOGLE CALENDAR!</h2>
+    <form action= "get_meal" method="get" id= "myForm">
+        <fieldset>
+            <legend id = "legend">Add meal idea to Calendar</legend>
+            <label for="task" id= "ingredientLabel">Ingredient:</label><br />
+            <input id="task" name="ingredients" type="text" /><br>
+            <input type="submit" value="ADD MEAL" id = "myButton" />
+        </fieldset>
+    </form>
+</body>
+</html>
